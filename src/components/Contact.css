@@ -1,0 +1,63 @@
+.main {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/background-contact.png);
+  background-size: 110%;
+}
+.contact h1 {
+  padding-bottom: 40px;
+  color: skyblue;
+}
+.contact h5 {
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.form {
+  height: 300px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: navy;
+}
+
+.form input {
+  border-radius: 5px;
+  outline: none;
+  height: 20px;
+  border: 1px skyblue solid;
+}
+
+.form textarea {
+  border-radius: 5px;
+  outline: none;
+  border: 1px skyblue solid;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  border: 2px solid #2c3e50;
+  color: #2c3e50;
+  display: block;
+  font-family: "trebuchet ms";
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px;
+  outline: none;
+}
+
+.btn:active {
+  outline: none;
+}

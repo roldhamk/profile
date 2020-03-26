@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  min-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.hero video {
+  max-width: 90%;
+}
