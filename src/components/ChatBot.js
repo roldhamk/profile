@@ -64,7 +64,7 @@ const Chatbot = props => {
     {
       id: "Seeing Portfolio",
       message:
-        "You can see some of my previous projects on my portfolio below:",
+        "You can see some of my previous projects under my portfolio link on the left!",
       trigger: "Anything Else"
     },
     {
