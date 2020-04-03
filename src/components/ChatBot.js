@@ -65,17 +65,6 @@ const Chatbot = props => {
       id: "Seeing Portfolio",
       message:
         "You can see some of my previous projects on my portfolio below:",
-      trigger: "port-trigger"
-    },
-    {
-      id: "port-trigger",
-      component: (
-        <div>
-          <Link className="a" to="/portfolio" target="_blank">
-            Portfolio
-          </Link>
-        </div>
-      ),
       trigger: "Anything Else"
     },
     {
